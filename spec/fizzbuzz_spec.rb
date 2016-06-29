@@ -1,10 +1,10 @@
-require "fizzbuzz"
+require 'fizzbuzz'
 describe 'fizzbuzz' do
   it 'return "fizz" when passed a multiple of 3' do
     expect(fizzbuzz(66)).to eql 'fizz'
   end
-  it 'return "buzz" when passed 5' do
-    expect(fizzbuzz(5)).to eql 'buzz'
+  it 'return "buzz" when passed a multiple of 5' do
+    expect(fizzbuzz(85)).to eql 'buzz'
   end
   it 'return "fizzbuzz"  when passed 15' do
     expect(fizzbuzz(15)).to eql 'fizzbuzz'
