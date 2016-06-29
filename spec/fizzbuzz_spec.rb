@@ -9,4 +9,7 @@ describe 'fizzbuzz' do
   it 'return "fizzbuzz"  when passed 15' do
     expect(fizzbuzz(15)).to eql 'fizzbuzz'
   end
+  it 'return "7" when passed 7' do
+    expect(fizzbuzz(7)).to eql 7
+  end
 end
